@@ -4,8 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'addpipec'
 })
 export class AddpipecPipe implements PipeTransform {
-  transform(arr:number[]) {
-    
+  transform(arr:number[]) {    
     const sum = arr.reduce(
       (accumulator, currentValue) => accumulator + currentValue,
       0
